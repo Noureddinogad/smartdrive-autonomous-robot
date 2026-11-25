@@ -1,0 +1,24 @@
+
+# Python virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# VS Code local settings
+.vscode/
+
+# Generated AI outputs and datasets
+runs/
+datasets/
+
+# Temporary files
+*.log
+.DS_Store
